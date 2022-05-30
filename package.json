@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@devextreme/runtime": "2.3.14",
+    "devexpress-diagram": "2.1.47",
+    "devexpress-gantt": "4.0.13",
+    "devextreme": "21.2.7",
+    "devextreme-quill": "1.5.14",
+    "devextreme-vue": "21.2.7",
+    "dx-systemjs-vue-browser": "1.0.15",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.11",
+    "inferno-clone-vnode": "7.4.11",
+    "inferno-compat": "7.4.11",
+    "inferno-create-class": "7.4.11",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "7.4.11",
+    "inferno-hydrate": "7.4.11",
+    "jszip": "3.7.1",
+    "luxon": "1.28.0",
+    "mitt": "latest",
+    "rrule": "2.6.6",
+    "vue": "3.2.36"
+  },
+  "description": "The Chart and PieChart components support different modes of series hovering. This demo shows the «includePoints» mode, when all the points of a hovered series change their display style. In addition, you can specify a custom hover mode for legend items. Here, the «excludePoints» mode is used, when only the series line changes its display style leaving the points as they were.\n",
+  "name": "Hover Mode - DevExtreme Charts"
+}
