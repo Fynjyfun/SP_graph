@@ -3,7 +3,7 @@
     id="chart"
     :data-source="grossProductData"
     :sticky-hovering="false"
-    title="Great Lakes Gross State Product"
+    title=""
   >
     <DxCommonSeriesSettings
       type="spline"
