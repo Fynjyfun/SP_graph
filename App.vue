@@ -3,7 +3,7 @@
     id="chart"
     :data-source="grossProductData"
     :sticky-hovering="false"
-    title=""
+    title="Филиал 2021"
   >
     <DxCommonSeriesSettings
       type="spline"
@@ -17,15 +17,15 @@
       :key="year.value"
       :value-field="year.value"
       :color="computeSeriesColor(year.proj)"
+      :name="year.proj"
     />
-    <!-- :name="year.proj" -->
 
-    <!-- <DxLegend
+    <DxLegend
       vertical-alignment="bottom"
       horizontal-alignment="center"
       hover-mode="excludePoints"
-    /> -->
-    <DxLegend :visible="false" />
+    />
+    <!-- <DxLegend :visible="false" /> -->
     <!-- <DxExport :enabled="true" /> -->
   </DxChart>
 </template>
